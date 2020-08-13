@@ -1,0 +1,193 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Open Sans Condensed',sans-serif;
+  color:#373239;
+  margin:auto;
+}
+
+/****** GRID ******/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+  display: inline-block;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/*****HEADER *****/
+
+header {
+  height: 620px;
+  background:url('../img/workspace2.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  overflow:auto;
+}
+
+header h1 {
+  font-family: 'Playball', cursive;
+  color:#102f03;
+  font-size: 90px;
+  padding-top: 50px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+header h2 {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 40px;
+text-align: left;
+padding-right: 65px;
+}
+
+header span {
+  color: #658a50;
+  font-family:'Playball',cursive;
+  font-size: 60px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-family: 'open sans', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #658a50;
+  padding-left: 50px;
+}
+
+
+/***** Work *****/
+#work {
+  background-color: #ecedef;
+  height:auto;
+  text-align: center;
+}
+
+#work h2{
+  font-family: 'Playball',cursive;
+  padding: 0px;
+  color:#102f03;
+  font-size: 55px;
+  text-align: center;
+}
+
+#work h3 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 30px;
+  font-weight:bolder;
+  text-align: center;
+  line-height: 40px;
+  padding: 15px;
+  margin: 38px 0px;
+  color: #658a50;
+  }
+
+#work p {
+  font-size:30px;
+  font-weight: bold;
+  line-height: 44px;
+  text-align: justify;
+  margin-right: 20px;
+
+
+}
+
+#work img {
+  width: 550px;
+  height: auto;
+  margin-top: 40px;
+  border: 3px #658a50 solid;
+  border-radius: 5px;
+}
+
+#work .container {
+  width:1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#work .project-image {
+  width: 600px;
+  float:left;
+}
+
+#work .project-description {
+  width: 600px;
+  float: left;
+}
+#work a{
+  text-decoration: none;
+}
+
+
+/*****ABOUT *****/
+#about {
+  background-color: #ecedef;
+  text-align: center;
+  height: auto;
+  overflow-x: auto;
+}
+
+#about h2 {
+  font-family: 'Playball', cursive;
+  color: #102f03;
+  font-size: 60px;
+  text-align: center;
+}
+
+#about p {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px ;
+  margin: 20px 60px 60px;
+  text-align: justify;
+}
+
+/****** FOOTER *****/
+footer {
+  height: 350px;
+  background-color: #ecedef;
+  background-size: cover;
+  overflow: auto;
+  text-align: center;
+}
+footer h2 {
+  font-family: 'Playball', cursive;
+  color:#102f03;
+  font-size: 40px;
+  padding: 10px 10px;
+
+}
+footer h3 {
+  color: #102f03;
+  font-size: 24px;
+}
+
+footer p {
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+color: #102f03;
+}
+
+footer img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
